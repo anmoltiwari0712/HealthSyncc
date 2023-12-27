@@ -1,0 +1,1 @@
+ E:\\healthsyncc\\.dart_tool\\flutter_build\\e282317f207138bc19df0dc860fa577f\\native_assets.yaml: 

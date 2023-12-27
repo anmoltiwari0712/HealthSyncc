@@ -1,0 +1,28 @@
+^D:\FLUTTER DEV\HEALTHSYNCC\BUILD\WINDOWS\X64\CMAKEFILES\51B9F56FBBDD92B159CFF8EA6AB60818\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\Hp\Downloads\flutter_windows_3.16.3-stable\flutter "PROJECT_DIR=D:\Flutter Dev\healthsyncc" FLUTTER_ROOT=C:\Users\Hp\Downloads\flutter_windows_3.16.3-stable\flutter "FLUTTER_EPHEMERAL_DIR=D:\Flutter Dev\healthsyncc\windows\flutter\ephemeral" "PROJECT_DIR=D:\Flutter Dev\healthsyncc" "FLUTTER_TARGET=D:\Flutter Dev\healthsyncc\lib\main.dart" DART_DEFINES=Zmx1dHRlci5pbnNwZWN0b3Iuc3RydWN0dXJlZEVycm9ycz1mYWxzZQ==,RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ==,RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC81NGE3MTQ1MzAzZjBkZDlkMGY5MzQyNGEyZTEyNGViNGFiZWY1MDkxLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=D:\Flutter Dev\healthsyncc\.dart_tool\package_config.json" C:/Users/Hp/Downloads/flutter_windows_3.16.3-stable/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Profile
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER DEV\HEALTHSYNCC\BUILD\WINDOWS\X64\CMAKEFILES\D90AFD88FBEEDF9BB850087F61201A45\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\FLUTTER DEV\HEALTHSYNCC\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SD:/Flutter Dev/healthsyncc/windows" "-BD:/Flutter Dev/healthsyncc/build/windows/x64" --check-stamp-file "D:/Flutter Dev/healthsyncc/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
